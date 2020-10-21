@@ -68,6 +68,7 @@ body{
     background-color: #F0E1E3;
 }
 
+
 .header{
     display: flex;
     justify-content: space-around;
@@ -78,8 +79,6 @@ body{
     margin-bottom: 2%;
     margin-top:2%;
     background-color: #E1B8C3;
-    
-    /* position: sticky; */
 }
 .header div{
     /* border: 1px solid red; */

@@ -44,6 +44,7 @@ table {
 
 /*my code below*/
 
+
 *{
     box-sizing: border-box;
     /* border:1px solid black; */
@@ -59,6 +60,7 @@ body{
     color: #000001;
     background-color: #F0E1E3;
 }
+
 
 .header{
     display: flex;
@@ -79,7 +81,6 @@ body{
 }
 .header h2 {
     text-align: left;
-    font-size: 3rem;
     letter-spacing: .2rem;
 }
 .header .nav{
@@ -93,51 +94,4 @@ body{
     padding:.5em;
     letter-spacing: .1rem;
     color:#000001;
-}
-.bio{
-    margin-top: 3rem;
-    font-size: 2rem;
-    width:100%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-}
-.bio div{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    
-}
-.bio img{
-    height: 45vh;
-    width: auto;
-    object-fit: contain;
-}
-.bio p{
-    width: 60%;
-    text-align: justify;
-}
-
-
-
-
-
-
-.footer{
-    height:5vh; 
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 1.75rem;
-    margin-top:2rem;
-    background-color: #E1B8C3;
-
-}
-.footer a{
-    text-decoration: none;
-    padding:.5em;
-    color:#000001;
-    letter-spacing: .1rem;
-    
 }
